@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    background-color: #29253F;
+    padding: 20px;
+}
+.container-1{
+    background-color: #3B3657;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.heading{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: "Roboto";
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.input{
+    width: 75%;
+    height: 40px;
+    outline: none;
+    background-color: white;
+    padding-left: 15px;
+    border: 0px solid;
+    border-radius: 8px;
+}
+.button{
+    width: 120px;
+    height: 36px;
+    border: 0px solid;
+    background-color: #776DB9 ;
+    border-radius: 5px;
+    color: white;
+}
+.ul-container{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 25px;
+    overflow: auto;
+}
+.list-item{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #776DB9;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.paraEle{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: white;
+}
+.divContainer{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit{
+    color: white;
+    font-size: 20px;
+}
+.cross{
+    color: red;
+    font-size: 20px;
+}
